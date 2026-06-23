@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Game of Thrones",
+    "slug": "got-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/images/splash-bg.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#1a0a00"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.davidcx8.gotapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#1a0a00"
+      },
+      "package": "com.davidcx8.gotapp",
+      "permissions": [
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-av",
+        {
+          "microphonePermission": false
+        }
+      ],
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "PORTRAIT"
+        }
+      ],
+      "expo-splash-screen"
+    ],
+    "sdkVersion": "51.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "c0c48791-aa1d-4842-8170-e3813d4e7abe"
+      }
+    },
+    "owner": "davidcx8"
+  }
+}
