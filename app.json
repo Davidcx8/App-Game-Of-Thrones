@@ -40,26 +40,13 @@
           "microphonePermission": false
         }
       ],
-      [
-        "expo-screen-orientation",
-        {
-          "initialOrientation": "PORTRAIT"
-        }
-      ],
       "expo-splash-screen"
     ],
-    "sdkVersion": "51.0.0",
     "extra": {
       "eas": {
         "projectId": "c0c48791-aa1d-4842-8170-e3813d4e7abe"
       }
     },
-    "owner": "davidcx8",
-    "runtimeVersion": {
-      "policy": "appVersion"
-    },
-    "updates": {
-      "url": "https://u.expo.dev/c0c48791-aa1d-4842-8170-e3813d4e7abe"
-    }
+    "owner": "davidcx8"
   }
 }
