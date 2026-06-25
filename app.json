@@ -12,7 +12,8 @@
       "backgroundColor": "#1a0a00"
     },
     "assetBundlePatterns": [
-      "**/*"
+      "assets/images/*",
+      "assets/audio/*"
     ],
     "ios": {
       "supportsTablet": false,
@@ -53,6 +54,12 @@
         "projectId": "c0c48791-aa1d-4842-8170-e3813d4e7abe"
       }
     },
-    "owner": "davidcx8"
+    "owner": "davidcx8",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/c0c48791-aa1d-4842-8170-e3813d4e7abe"
+    }
   }
 }
